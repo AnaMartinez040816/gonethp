@@ -1,5 +1,6 @@
-import './App.css';
-import { Logomobile } from './Components/logomobile/Logomobile';
+import './App.scss';
+import { Logomobile }      from './Components/logomobile/Logomobile';
+import { CharacterDisplay} from  './Components/characterDisplay/CharacterDisplay';
 
 function App() {
   return (
@@ -9,10 +10,11 @@ function App() {
           <h1>holy</h1>     
         </div>
       </header>
-      <Logomobile />
+      {/* <Logomobile /> */}
+      <CharacterDisplay />
 
     </div>
   );
-}
+}  
 
 export default App;
