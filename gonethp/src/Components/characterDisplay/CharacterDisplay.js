@@ -5,9 +5,9 @@ import "./CharacterDisplay.scss";
 
 export const CharacterDisplay = ({ data }) => {
   // console.log(data)
-  const [kCharacter, setKCharacter] = useState([]);
+  const [kCharacter, setKCharacter] = useState([]);   
   
-  const getCharacter = async () => {
+  const getCharacter = async () => {    
 
     let url = "http://localhost:5000/characters";
     let getFetchData = await fetch(url).then((result) => result.json());
