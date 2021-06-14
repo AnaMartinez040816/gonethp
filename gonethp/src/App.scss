@@ -1,51 +1,59 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
+
+body {
+  background: #000000;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #000000;
-  width: 300px;
-  height: 806;
-  display: flex;
+.App {
+  background: #000000;
+  background-image: url("https://fotografias.antena3.com/clipping/cmsimages02/2016/12/19/2EE113FB-4B38-40C5-B086-857D6B8E7967/default.jpg?crop=2048,1152,x0,y37&width=1900&height=1069&optimize=low");
+  background-size: cover;
   flex-direction: column;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  /* font-size: calc(10px + 2vmin);
-  color: white; */
-}
+  height: 31em;
+  width: 100%;
 
-.App-link {
-  color: #61dafb;
-}
+  .App-header {
+    font-family: "Mountains of Christmas", cursive;
+    font-size: 30px;
+    color: white; 
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App-header {
+    font-family: "Mountains of Christmas", cursive;
+    font-size: 30px;
+    color: white; 
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-title {
+    font-family: "Open Sans";
+    font-size:  25px;
+    color: white; 
+  } 
+  
   }
-}
+
+
+
 
 @media(max-width: 375px) {
-  body{
-      background-color: #000000;
-      width: 300px;
-      height: 806px;
+  .App{
+    background: #000000;
   }
-  .App h1 {
-    font-size: medium;
-    color: aliceblue;
+
+  .App-header {
+    font-family: "Mountains of Christmas", cursive;
+    font-size:  30px;
+    color: white; 
   }
+  .App-title {
+    font-family: "Open Sans";
+    font-size:  25px;
+    color: white; 
+  } 
+  
+
+
 }
