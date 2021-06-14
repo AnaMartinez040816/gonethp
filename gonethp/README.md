@@ -35,7 +35,7 @@ Cuando hice el gitproject anote varias requisitos para resolver las funcionalida
 
 Me gusto mucho implementar el servidor Json y hacer los filtros.
 
-![](/gonethp/src/assets/Imagen1.jpg)
+![](/gonethp/src/assets/Imagen1.png)
 
 - Si hubiera tenido más tiempo ¿qué hubieras mejorado o qué más hubieras hecho?
 
