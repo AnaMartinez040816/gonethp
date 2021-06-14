@@ -25,7 +25,7 @@ El proyecto esta en github en el repositorio https://github.com/AnaMartinez04081
     +levantar el servidor de Json Server     con el comando           npm run data-api
     +Se inicia el proyecto                   con el comando           npm start
 
-![](/gonethp/gonethp/src/assets/hpfilter.git)
+![](/gonethp/src/assets/hpfilter.gif)
 
 - Lo que más me gustó del desarrollo.
 
@@ -35,7 +35,7 @@ Cuando hice el gitproject anote varias requisitos para resolver las funcionalida
 
 Me gusto mucho implementar el servidor Json y hacer los filtros.
 
-![](/src/assets/Imagen1.jpg)
+![](/gonethp/src/assets/Imagen1.jpg)
 
 - Si hubiera tenido más tiempo ¿qué hubieras mejorado o qué más hubieras hecho?
 
