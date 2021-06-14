@@ -11,10 +11,6 @@ export const CharacterDisplay = ({ data }) => {
 
     let url = "http://localhost:5000/characters";
     let getFetchData = await fetch(url).then((result) => result.json());
-    // let filterProducts = getFetchData.filter(
-    // (item) => item.category === "shoes"
-    // );
-    // setKproducts(filterProducts);
     setKCharacter(getFetchData);
   };
   useEffect(() => {

@@ -1,5 +1,7 @@
 import React from "react";
 
+import flagF from '../../assets/flagfavorite.jpg'
+
 import "../characterCard/CharacterCard.scss";
 
 const CharacterCard = ({ CharacterD }) => {
@@ -21,7 +23,7 @@ const CharacterCard = ({ CharacterD }) => {
   }
  
   let rol=""
-  var x = CharacterD.hogwartsStudent;
+    x = CharacterD.hogwartsStudent;
   if (x) {
     rol="Estudiante"
   } else {
@@ -29,13 +31,20 @@ const CharacterCard = ({ CharacterD }) => {
   }
 
   return (
-    <div className="character-card">
-        <img src={imag} alt="photo" className="character-card-photo" />
-          <p className="character-card-info">{CharacterD.name}</p>
-        <div className="character-status-alive">
-          <p>{statusAlive}</p>
+    <div className="CardMini">
+      <div className="leftCard">
+        <div className="character-card">
+          <img src={imag} alt="photo" className="character-card-photo" />
+          <div className="character-card-info">
+            <p className="character-card-name">{CharacterD.name}</p>
+            <div>
+              <p className="character-status-alive">{statusAlive}</p>
+              <p className="character-status-alive">{rol}</p>
+              <img src={flagF} alt="flag" className="character-card-flag"></img>
+            </div>
+          </div>
         </div>
-        <p>{rol}</p>
+      </div>
     </div>
   );
 };
