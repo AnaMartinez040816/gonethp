@@ -1,7 +1,6 @@
 # amTest
 Evalución frontend
 
-<img src="http://hp-api.herokuapp.com/images/harry.jpg />
 
 - Introducción
 
