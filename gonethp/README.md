@@ -1,7 +1,7 @@
 # amTest
 Evalución frontend
 
-![] ("http://hp-api.herokuapp.com/images/harry.jpg")
+![] (http://hp-api.herokuapp.com/images/harry.jpg)
 
 - Introducción
 
@@ -25,7 +25,7 @@ El proyecto esta en github en el repositorio https://github.com/AnaMartinez04081
     +levantar el servidor de Json Server     con el comando           npm run data-api
     +Se inicia el proyecto                   con el comando           npm start
 
-![](/src/assets/hpfilter.git)
+![](/gonethp/src/assets/hpfilter.git)
 
 - Lo que más me gustó del desarrollo.
 
