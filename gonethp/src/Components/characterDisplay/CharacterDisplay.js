@@ -21,7 +21,7 @@ export const CharacterDisplay = ({ data }) => {
     <div className="containerCards">
       {kCharacter.map((item) => (
       <CharacterCard CharacterD={item} />
-      ))}
+      ))}   
     </div>
   );
 };

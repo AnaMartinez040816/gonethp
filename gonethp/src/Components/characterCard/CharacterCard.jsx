@@ -11,7 +11,7 @@ const CharacterCard = ({ CharacterD }) => {
   if (CharacterD.gender === "male") {
     statusAlive="muerto"
   } else {
-    statusAlive="muerta"
+    statusAlive="muerta"    
   }
   var x = CharacterD.alive;
   if (x) {
@@ -37,7 +37,7 @@ const CharacterCard = ({ CharacterD }) => {
           <img src={imag} alt="photo" className="character-card-photo" />
           <div className="character-card-info">
             <p className="character-card-name">{CharacterD.name}</p>
-            <div>
+            <div className="character-card-relevants">
               <p className="character-status-alive">{statusAlive}</p>
               <p className="character-status-alive">{rol}</p>
               <img src={flagF} alt="flag" className="character-card-flag"></img>

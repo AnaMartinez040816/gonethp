@@ -1,23 +1,28 @@
 .CardMini {
     display: inline-block;
     justify-content: space-around;
+
     .leftCard {
         .character-card {
-        width: 160px;
-        height: 125px; 
-        background: linear-gradient(358.61deg, #FF0000 4.67%, #FED482 96.97%);      
+            width: 160px;
+            height: 125px;
+            background: linear-gradient(358.61deg, #FF0000 4.67%, #FED482 96.97%);
         }
-         .character-card-photo{
-            width:100px;
-            height:100px;
-            border-radius:50px; 
+
+        .character-card-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
         }
+
         .character-card-info {
             width: 160px;
             height: 120px;
             background: white;
 
         }
+
+
         .character-card-name {
             font: "Open Sans";
             font-size: 17px;
@@ -25,16 +30,25 @@
             align-items: center;
 
         }
+
+        .character-card-relevants {
+            margin-left: 5px;
         .character-status-alive {
             font: "Open Sans";
-            font-size: 18px;
-            font-weight: 300;
+            font-size: 12px;
+            font-weight: 500;
             align-items: left;
-            color:black;
+            color: black;
+        }
+        .character-card-flag {
+            width: 10px;
+            height: 10px;
+            margin-right:  2px;
         }
     }
-}
+    }
 
+}
 
 @media(max-width: 375px) {
     .CardMini {
