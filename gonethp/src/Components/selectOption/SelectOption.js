@@ -1,7 +1,5 @@
 import React from "react";
 import {useHistory} from "react-router-dom";
-// import {CharacterFilterStudents} from "../characterFilterStudents/CharacterFilterStudents";
-// import {CharacterFilterStaff} from "../characterFilterStaff/CharacterFilterStaff";
 import "./SelectOption.scss";
 
 export const SelectOption = () => {
@@ -12,12 +10,15 @@ export const SelectOption = () => {
    function handdleClickStaff (){
     history.push("/staff");
      }
-
+     function handdleClickAlive (){
+      history.push("/alive");
+       }
 
    return(
      <div className="buttons">
         <button className="btnfilter" onClick={handdleClickStudents}>ESTUDIANTES</button>
         <button className="btnfilter" onClick={handdleClickStaff}>STAFF</button>
+        <button className="btnfilter" onClick={handdleClickAlive}>VIVOS</button>
      </div>
    )
 }

@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     .btnfilter {
-      width: 150px;
+      width: 100px;
       height: 30px;
       font-family: "Open Sans";
-      font-size: 13px;
+      font-size: 9px;
       text-align: center;
       letter-spacing: 0.2em;
       color: #FFFFFF;
@@ -15,7 +15,6 @@
     }
     .btnfilter :hover {
       background: white;
-      // rgba(107, 99, 181, 0.6);
       border: 4px solid #6B63B5;
     } 
   }

@@ -7,13 +7,10 @@ import {
 	Route,
 } from "react-router-dom";
 
-
-// import { Logomobile }      from './Components/logomobile/Logomobile';
-// import { CharacterDisplay} from  './Components/characterDisplay/CharacterDisplay';
 import {SelectOption} from './Components/selectOption/SelectOption'
-
 import {CharacterFilterStaff}   from './Components/characterFilterStaff/CharacterFilterStaff'
 import {CharacterFilterStudents} from './Components/characterFilterStudents/CharacterFilterStudents'
+import {CharacterFilterAlive}    from './Components/characterFilterAlive/CharacterFilterAlive'
 
 function App() {
   return (
@@ -31,6 +28,9 @@ function App() {
         <Switch>
           <Route path="/students">
             <CharacterFilterStudents />
+          </Route>
+          <Route path="/alive">
+            <CharacterFilterAlive />
           </Route>
           <Route path="/staff">
             <CharacterFilterStaff />
